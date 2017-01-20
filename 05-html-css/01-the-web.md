@@ -90,4 +90,6 @@ This week we will be focusing on creating static sites with front-end languages,
 
 ### Additional Resources
 
-[MDN What is a Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) (Highly Recommended)
+- [MDN What is a Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) (Highly Recommended)
+- [Front-end vs Backend Udacity Article](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
+- [Static vs Dynamic Websites](http://www.codeconquest.com/website/static-vs-dynamic-websites/)
