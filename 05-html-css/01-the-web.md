@@ -18,7 +18,7 @@ Common Examples: Facebook, Gmail and Medium
  Common Examples: restaurants, small business and individual's portfolio sites.
 
 
-### Activity! Static vs Dynamic
+### ACTIVITY: Static vs Dynamic
 With each site listed below, answer the following questions:
 Is the site most likely static or dynamic?
 What makes these sites static or dynamic?
@@ -32,13 +32,18 @@ What makes these sites static or dynamic?
 
 ## Front-end vs Back-end
 
-Web applications are dynamic websites that can be broken down into two parts, the front-end and the back-end.
+Web applications are dynamic websites that can be broken down into two main parts, the front-end and the back-end.
 
-Front-end refers to everything that you actually see on the website, in your browser (and is often called "client-side"). Front-end languages include HTML, CSS and JavaScript.
+**Front-end** refers to everything that a user actually sees on the website, in the browser (and is often called "client-side"). Front-end languages include HTML, CSS and JavaScript.
 
-Back-end refers to the brains, or logic, of a web application. This code remains "server-side" and often interacts with a database. The back-end utilizes programming languages such as ruby, python, PHP, java or JavaScript.
+**Back-end** refers to "the brains", or logic, of a web application. This code remains "server-side" and often interacts with a database. The back-end utilizes programming languages such as ruby, python, PHP, java or JavaScript.
 
-**Fun-Fact:** You may hear the phrase 'full-stack developer' thrown around a lot. A full-stack developer is familiar with and prefers to work on both the front-end and back-end of a web application.
+Example: When ordering lunch from Grubhub, content is being organized and styled with front-end code. When you order items from a restaurant, the back-end is calculating your total based on the items you selected, any deals based on your total cost and the delivery fee for your area.
+
+The back-end is responsible for a lot of other things like showing you all the restaurants that deliver to your area, alerting the restaurant about your order and sending you texts on the status of your delivery. 
+
+
+**Fun-Fact:** You may hear the phrase 'full-stack developer' thrown around. A full-stack developer is familiar with and prefers to work on both the front-end and back-end of a web application.
 
 
 ## How the Internet Works
