@@ -4,19 +4,20 @@
 ## 📚 Learning Goals 📚
 - Understand HTML syntax & vocabulary
 - Can identify what tags are most appropriate for specific content
-- Can view document in a browser
+- Can view HTML document in a browser
 - Can link to other html files
 
 
 
 ## HTML is the foundation for EVERY website
-HTML structures the content of a webpage. Its purpose is to organize content and **Every** website uses it! So it is worth getting to know very well!
+HTML structures the content of a webpage. Its purpose is to organize content and _EVERY_ website uses it! So it is worth getting to know very well!
 
 HTML stands for Hypertext Markup Language. It is a markup language, meaning that it only is concerned about giving content structure. As opposed to a programming language that handles logic and functionality.
 
 **Note:** HTML is not concerned about how the content *looks*. That job is left to CSS, which is a totally different language we will be learning later.
 
-**Fun Tip** Add the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) extension to chrome to see how sites look without any CSS!
+##### FUN TIP:
+Add the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) extension to chrome to see how sites look without any CSS!
 
 ![Web Developer Chrome Extension](imgs/web_developer.png)
 After you add it, click on the extension's icon (it looks like a gear). A box will popup, click on the CSS tab towards the top left. Then click 'Disable All Styles' to disable CSS on any site your heart desires 💛. Have fun!
@@ -33,58 +34,11 @@ Here is a real-life example of a heading for my social media site for cats. It i
 ```html
 <h1> Meowspace </h1>
 ```
-### Nested Elements
-Sometimes tags will be nested inside of other tags. To maintain readable code, the parent tags (the outer most ones) should each be on a new line with the nested element indented. Example:
 
-```html
-<nav>
-  <h1> Meowspace <h1>
-</nav>
-```
-Start to be mindful of the relationship between nested elements. It will become important as we progress in the week. In the example above, I wanted my site's heading to belong, or be part of, my nav (navigation) element.
+#### Common HTML Tags
 
-### Self Closing Elements
-Some elements are self closing. These elements do not 'wrap' around any content. For example, to display an image, use the self-closing img tag. It use the src attribute to link to the image's source.
-```html
-<img src="/imgs/kittens_in_a_basket.jpg">
-```
-### Commenting in an HTML Document
-To comment within HTML, use `<!-- -->`. Example:  
-```html
-<!-- Your comment here -->
-<h1> Meowspace </h1>
-```
-## Setup an HTML Document
+Below are common html tags that wrap directly around content, such as the text we want our users to see.
 
-Before we can start to organize our content into html elements, we must setup our HTML documents so that our code can be properly interpreted by browsers.
-
-Create a new directory for this site. Then create a new file called 'index.html'.
-
-
-```html
-<!-- index.html -->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title> This site should have a title! </title>
-  </head>
-  <body>
-    <!-- Your code goes here! -->
-  </body>
-</html>
-```
-What do all these html tags mean?
-
-- [DocType](http://stackoverflow.com/questions/414891/what-is-doctype)
-- [HTML](http://stackoverflow.com/questions/3270615/why-we-use-html-tag-although-my-website-runs-perfect-without-html-tag)
-- [Head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
-  - [charset](http://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16)
-  - [title]()
-- [Body](http://htmldog.com/references/html/tags/body/)
-
-
-## Common HTML Tags
 ```html
 <!-- headers (h1..h6)-->
 <h1> </h1>
@@ -100,6 +54,35 @@ What do all these html tags mean?
 <!-- Image -->
 <img src="http://www.fillmurray.com/1000/500">
 
+```
+
+### Nested Elements
+Sometimes tags will be nested inside of other tags. To maintain readable code, the parent tags (the outer most ones) should each be on a new line with the nested element indented. Example:
+
+```html
+<nav>
+  <h1> Meowspace <h1>
+</nav>
+```
+Start to be mindful of the relationship between nested elements. It will become important as we progress in the week. In the example above, I wanted my site's heading to belong, or be part of, my nav (navigation) element.
+
+Below are common HTML tags that organize the structure of your HTML by wrapping around other elements.
+
+#### Common Grouping HTML Tags
+
+```html
+<!-- navigation -->
+<nav> </nav>
+
+<!-- footer -->
+<footer> </footer>
+
+<!-- Section, groups related content -->
+<section> </section>
+
+<!-- Division, also used to Group related content -->
+<div> </div>
+
 <!-- An Unordered List with List Items -->
 <ul>
   <li> </li>
@@ -108,12 +91,63 @@ What do all these html tags mean?
 </ul>
 ```
 
-## Organize the Content
+### Self Closing Elements
+Some elements are self closing. These elements do not 'wrap' around any content. For example, to display an image, use the single, self-closing 'img' tag. It use the 'src' attribute, within the tag, to link to the image's source.
+```html
+<img src="/imgs/kittens_in_a_basket.jpg">
+```
+
+### Commenting in an HTML Document
+To comment within HTML, use `<!-- -->`. Example:  
+```html
+<!-- Your comment here -->
+<h1> Meowspace </h1>
+```
+## Setup an HTML Document
+
+Before we can start to organize our content into html elements, we must setup our HTML documents so that our code can be properly interpreted by browsers.
+
+Create a new directory for this site. Then, inside that new directory, create a new file called 'index.html'.
+
+Before we can start adding our own content and HTML code, we need to add the code below first.
+
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> This site should have a title! </title>
+  </head>
+  <body>
+    <!-- Your code goes here! -->
+  </body>
+</html>
+```
+This code provides information to the browser to help present our content.
+
+What do all these html tags mean?
+
+- [DocType](http://stackoverflow.com/questions/414891/what-is-doctype)
+- [HTML](http://stackoverflow.com/questions/3270615/why-we-use-html-tag-although-my-website-runs-perfect-without-html-tag)
+- [Head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)
+  - [charset](http://stackoverflow.com/questions/2241348/what-is-unicode-utf-8-utf-16)
+  - [title]()
+- [Body](http://htmldog.com/references/html/tags/body/)
+
+
+### ACTIVITY: Organize and Structure Content in HTML
 Use lorem ipsum and placeholder photo generators to create and organize content for a page that has 3 blog posts.
+
+Here are a couple of our favorite generators
+- [Cupcake Ipsum](http://www.cupcakeipsum.com/)
+- [Hipster Ipsum](https://hipsum.co/)
+- [Fill Murray](https://www.fillmurray.com/)
+- [Placekitten](http://placekitten.com/)
 
 
 ## Validate your HTML
-Validating Web documents is an important step which can help improve and ensure their quality. Use this link to see if your HTML is following proper HTML syntax: [Markup Validation Service](https://validator.w3.org/nu/#textarea)
+Validating html documents is an important step to ensure you are using best . Use this link to see if your HTML is following proper HTML syntax: [Markup Validation Service](https://validator.w3.org/nu/#textarea)
 
 ## Best Practices
 
@@ -121,15 +155,19 @@ Validating Web documents is an important step which can help improve and ensure 
 - Use proper indentation
 - All content should be wrapped by an element
 - Use caution with [W3Schools](http://www.w3schools.com/) documentation.
-  - [MDN](https://developer.mozilla.org/en-US/) is notably more reliable.
+  - [MDN](https://developer.mozilla.org/en-US/) is notably more reliable and up to date.
 
 ## Vocab ✅
 - Markup language
 - Element
+- Parent Element
+- Child Element
 
 
 ## 🔑 Key Takeaway
-HTML is only concerned about how content is structured. Nothing should be changing the appearance.
+HTML is concerned about how content is structured and organized.
 
 ### Additional Resources
 - [Learn to Code: HTML & CSS](http://learn.shayhowe.com/html-css/building-your-first-web-page/) ( Will be a good resource to reference throughout week.)
+- [MDN Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+- [MDN Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)(Highly Recommended)
