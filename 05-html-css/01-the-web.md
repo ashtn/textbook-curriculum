@@ -34,13 +34,13 @@ What makes these sites static or dynamic?
 
 Web applications are dynamic websites that can be broken down into two main parts, the front-end and the back-end.
 
-**Front-end** refers to everything that a user actually sees on the website, in the browser (and is often called "client-side"). Front-end languages include HTML, CSS and JavaScript.
+**Front-end** refers to everything that a user actually sees on the website, in the browser (and is often called "client-side"). It is responsible for organizing and styling the content to make it easier for users to interact with. Front-end languages include HTML, CSS and JavaScript.
 
 **Back-end** refers to "the brains", or logic, of a web application. This code remains "server-side" and often interacts with a database. The back-end utilizes programming languages such as ruby, python, PHP, java or JavaScript.
 
-Example: When ordering lunch from Grubhub, content is being organized and styled with front-end code. When you order items from a restaurant, the back-end is calculating your total based on the items you selected, any deals based on your total cost and the delivery fee for your area.
+**Example:** When ordering lunch from Grubhub, All the content you see is being organized and styled with front-end code. When you order items from a restaurant, the back-end is calculating your total based on the items you selected, any deals based on your total cost and the delivery fee for your area.
 
-The back-end is responsible for a lot of other things like showing you all the restaurants that deliver to your area, alerting the restaurant about your order and sending you texts on the status of your delivery. 
+The back-end is responsible for a lot of other things like showing you all the restaurants that deliver to your area, alerting the restaurant about your order and sending you texts on the status of your delivery.
 
 
 **Fun-Fact:** You may hear the phrase 'full-stack developer' thrown around. A full-stack developer is familiar with and prefers to work on both the front-end and back-end of a web application.
@@ -48,24 +48,27 @@ The back-end is responsible for a lot of other things like showing you all the r
 
 ## How the Internet Works
 
-In order for us to access a website,  it's files need to be stored on a computer that is constantly online, otherwise known as a [web server](https://www.cloudyn.com/blog/10-facts-didnt-know-server-farms/).
+In order for us to access a website,  it's files need to be stored on a computer that is constantly online. This computer is known as a [web server](https://www.cloudyn.com/blog/10-facts-didnt-know-server-farms/).
 
 ![HTTP Response and Request](https://mdn.mozillademos.org/files/8659/web-server.svg)
 
- A web server uses a protocol called HTTP to take requests from 'clients'. For example, when you type in 'google.com', your browser (the client) will make a request to google's servers. Google's servers will find the requested files and send them back to the browser.
+ A **web server** uses a protocol called HTTP to take requests from 'clients'. For example, when you type in 'google.com', your browser (the client), will make a request to google's servers. Google's servers will find the files based on the request and send them back to the client, the browser.
 
  ![How Information Travels on the Web](imgs/netdiag.gif)
 
- - [Analogy between postal mail and TCP/IP](http://bpastudio.csudh.edu/fac/lpress/471/hout/netech/postofficelayers.htm)
- - [Warriors of the Net Video](https://www.youtube.com/watch?v=PBWhzz_Gn10)
+### Learn more about how the internet Works
+Of course there is _a lot_ more to how the internet works, but that is enough surface level information to guide us through this unit! If you're aching to learn more, the links below are great resources to start:  
+
+ - [How the Internet Works in 5 Minutes Video](https://www.youtube.com/watch?v=7_LPdttKXPc)
+ - [How the Internet Works Khan Academy Course](https://www.khanacademy.org/partner-content/code-org/internet-works)
 
 ## Browser Compatibility
 
 The internet has changed a lot since Sir Tim Berners Lee made the first [web page](http://info.cern.ch/) in 1991. In turn, HTML and CSS have evolved from when they were first used in the 90's. As these front-end languages evolve, browsers need to evolve with them.
 
-The current versions of browsers we are using right now  understand HTML5 and CSS3, which utilize newest web development standards we will be learning.
+The current versions of browsers we are using right now  understand HTML5 and CSS3, which utilize the newest web development standards we will be learning.
 
-Be aware that some older browsers do not understand the newest versions of HTML or CSS. One day you many need to develop a site that needs to be accessed by a large demographic, including users with computers from 2001 (or older). Your site may break, or look a lot different on those computer's browsers.
+Be aware that some older browsers do not understand the newest versions of HTML or CSS. One day you many need to develop a site that needs to be accessed by a demographic that is using older technology. Your site may break, or look a lot different on those computer's browsers.
 
 There are also many different browsers (Safari, Internet Explorer, Chrome, Firefox etc). A browser's job is to translate the code that will be displayed. Each browser does this a little bit differently. To ensure a site is widely accessible, developers use browser [compatibility tools](http://www.catswhocode.com/blog/15-techniques-and-tools-for-cross-browser-css-coding).
 
