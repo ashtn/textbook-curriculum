@@ -27,6 +27,7 @@ What makes these sites static or dynamic?
 - [Twitter](http://www.twitter.com)
 - [Medium](https://medium.com/)
 - [Awwwards](http://www.awwwards.com/)
+- [Dino's Tomato Pie](http://dinostomatopie.com/)
 - [Molamil Business Site](http://www.molamil.com/frontpage)
 
 
@@ -54,13 +55,17 @@ In order for us to access a website,  it's files need to be stored on a computer
 
  A **web server** uses a protocol called HTTP to take requests from 'clients'. For example, when you type in 'google.com', your browser (the client), will make a request to google's servers. Google's servers will find the files based on the request and send them back to the client, the browser.
 
- ![How Information Travels on the Web](imgs/netdiag.gif)
+There are many protocols that set standards on how information travels from a web server to a personal device. These protocols take efficiency, security and reliability into account.
+
+Check out [this video](https://www.youtube.com/watch?v=AYdF7b3nMto&index=4&list=PLzdnOPI1iJNfMRZm5DDxco3UdsFegvuB7) to learn more about how information travels over the internet.
+
 
 ### Learn more about how the internet Works
 Of course there is _a lot_ more to how the internet works, but that is enough surface level information to guide us through this unit! If you're aching to learn more, the links below are great resources to start:  
 
  - [How the Internet Works in 5 Minutes Video](https://www.youtube.com/watch?v=7_LPdttKXPc)
  - [How the Internet Works Khan Academy Course](https://www.khanacademy.org/partner-content/code-org/internet-works)
+ - [Blown to Bits eBook](http://www.bitsbook.com/wp-content/uploads/2008/12/B2B_3.pdf)
 
 ## Browser Compatibility
 
