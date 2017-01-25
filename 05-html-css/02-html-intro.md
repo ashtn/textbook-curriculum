@@ -17,7 +17,7 @@ HTML stands for Hypertext Markup Language. It is a markup language, meaning that
 **Note:** HTML is not concerned about how the content *looks*. That job is left to CSS, which is a totally different language we will be learning later.
 
 ##### FUN TIP:
-Add the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) extension to chrome to see how sites look without any CSS!
+Add the [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US) extension to chrome to see how sites look with only HTML, by removing all CSS styling!
 
 ![Web Developer Chrome Extension](imgs/web_developer.png)
 After you add it, click on the extension's icon (it looks like a gear). A box will popup, click on the CSS tab towards the top left. Then click 'Disable All Styles' to disable CSS on any site your heart desires 💛. Have fun!
@@ -30,7 +30,7 @@ Every part of a website's content is 'wrapped' by its own HTML element. Elements
 ```html
 <tag> Content </tag>
 ```
-Here is a real-life example of a heading for my social media site for cats. It is wrapped with an h1 header element:
+Here is a real-life example of a heading for my social media site for cats. I have my website's name wrapped with an h1 header element:
 ```html
 <h1> Meowspace </h1>
 ```
@@ -51,9 +51,6 @@ Below are common html tags that wrap directly around content, such as the text w
 <!-- A Link  (and my favorite bit of advice.)-->
 <a href="http://google.com"> Google It. </a>
 
-<!-- Image -->
-<img src="http://www.fillmurray.com/1000/500">
-
 ```
 
 ### Nested Elements
@@ -63,12 +60,20 @@ Sometimes tags will be nested inside of other tags. To maintain readable code, t
 <nav>
   <h1> Meowspace <h1>
 </nav>
+
+
+<!-- An Unordered List with List Items -->
+<ul>
+  <li>Milk</li>
+  <li>Bread</li>
+  <li>Bananas</li>
+</ul>
 ```
 Start to be mindful of the relationship between nested elements. It will become important as we progress in the week. In the example above, I wanted my site's heading to belong, or be part of, my nav (navigation) element.
 
 Below are common HTML tags that organize the structure of your HTML by wrapping around other elements.
 
-#### Common Grouping HTML Tags
+#### Common Sectioning HTML Tags
 
 ```html
 <!-- navigation -->
@@ -83,18 +88,16 @@ Below are common HTML tags that organize the structure of your HTML by wrapping 
 <!-- Division, also used to Group related content -->
 <div> </div>
 
-<!-- An Unordered List with List Items -->
-<ul>
-  <li> </li>
-  <li> </li>
-  <li> </li>
-</ul>
 ```
+Sectioning tags alone will not affect how your page looks in the browser, but they will help organize your code and make it easier to interact with CSS and JavaScript. We will learn more about them in a coming lesson!
+
 
 ### Self Closing Elements
 Some elements are self closing. These elements do not 'wrap' around any content. For example, to display an image, use the single, self-closing 'img' tag. It use the 'src' attribute, within the tag, to link to the image's source.
 ```html
-<img src="/imgs/kittens_in_a_basket.jpg">
+<!-- Image -->
+<img src="http://www.fillmurray.com/1000/500">
+
 ```
 
 ### Commenting in an HTML Document
@@ -103,6 +106,7 @@ To comment within HTML, use `<!-- -->`. Example:
 <!-- Your comment here -->
 <h1> Meowspace </h1>
 ```
+
 ## Setup an HTML Document
 
 Before we can start to organize our content into html elements, we must setup our HTML documents so that our code can be properly interpreted by browsers.
@@ -137,7 +141,7 @@ What do all these html tags mean?
 
 
 ### ACTIVITY: Organize and Structure Content in HTML
-Use lorem ipsum and placeholder photo generators to create and organize content for a page that has 3 blog posts.
+Use lorem ipsum and placeholder photo generators to create content for a page that has 3 blog posts. All content should be wrapped and organized in HTML tags.
 
 Here are a couple of our favorite generators
 - [Cupcake Ipsum](http://www.cupcakeipsum.com/)
@@ -147,7 +151,7 @@ Here are a couple of our favorite generators
 
 
 ## Validate your HTML
-Validating html documents is an important step to ensure you are using best . Use this link to see if your HTML is following proper HTML syntax: [Markup Validation Service](https://validator.w3.org/nu/#textarea)
+Validating HTML documents is an important step to ensure you are using best practices with your HTML. Use this link to see if your HTML is following proper HTML syntax: [Markup Validation Service](https://validator.w3.org/nu/#textarea)
 
 ## Best Practices
 
