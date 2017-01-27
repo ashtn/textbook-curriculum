@@ -91,10 +91,29 @@ Then, define your styles with css rule-sets exactly as you have already been.
 }
 ```
 
+## Naming Conventions
+Be descriptive of what the class or id is doing or
+- Separate words in ID and class names by a hyphen
+- Use lowercase
+
+**Examples**
+- .warning-message
+- #profile-picture
+
+## Best Practices
+- Id's should only be applied to a single element
+- Classes should be used when you are going to apply that style to multiple elements
+- Id and class names should be descriptive of what they're doing
+
+## Vocab ✅
+- Attribute
+- Class
+- ID
+
+
 ## 🔑 Key Takeaway
 A class is a _type_ of item and the ID is the _unique name_ of an item on the page. Giving elements an ID or class allows you to target specific elements to style, while providing a semantic, meaningful name to for css rules.
 
 ### Additional Resources
 - [HTML Dog Basic Overview](http://www.htmldog.com/guides/css/intermediate/classid/)
-
-[CSS Tricks The Difference Between ID and Class](https://css-tricks.com/the-difference-between-id-and-class/)
+- [CSS Tricks The Difference Between ID and Class](https://css-tricks.com/the-difference-between-id-and-class/)
