@@ -47,7 +47,7 @@ Getting around the directories of our computer is a snap!
         * `cd .` wouldn't take you anywhere, but it does have an interesting side effect we'll utilize in the future.
         * `cd ..` will take you one directory up, to the parent directory
     + the tilde `~` is a shortcut meaning your home directory
-        * `cd ~` would change to your have directory, same as just `cd`
+        * `cd ~` would change to your home directory, same as just `cd`
         * `cd ~/C5` would change to the `C5` directory in your home folder.
     + Dots can be chained together, so to go two directories up, you would do `cd ../../`
     + `cd -` takes you back to the prior directory that you were in. This is different from the parent directory and more like the back button except it only keeps one directory of history. Running `cd -` again will toggle back and forth between the same two directories. This can be useful if you have a source directory and a documentation directory that you need to switch back and forth between.
