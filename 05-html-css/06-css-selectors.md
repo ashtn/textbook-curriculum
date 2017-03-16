@@ -95,7 +95,7 @@ h1 em {
 `Cat` and `Hat` will be backed with orange, but `Dr. Seuss` will not.
 
 ## Multiple Selectors
-The same rule set can be applied to two different selectors by putting a comma in between selectors. Doing so can help keep your CSS stay DRY.
+The same rule set can be applied to two different selectors by putting a comma in between selectors. Doing so can help keep your CSS DRY.
 
 Examples:
 
